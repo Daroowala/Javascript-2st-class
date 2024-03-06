@@ -18,16 +18,16 @@
 //var f = 10;
 //document.write("The output is" + "" + f);
 
-//var age = +prompt ("Enter your age");
-//if(age == 14){
-  //  alert("Your age is equal")
-//}
-//else if("< 14") {
-  //  alert ("Your age is less")
-//}
-//else{
-  //  alert ("Your age is more")
-//}
+// var age = +prompt ("Enter your age");
+// if(age == 14){
+//     alert("Your age is equal")
+// }
+//  if("< 14") {
+//     alert ("Your age is less")
+// }
+// else{
+//     alert ("Your age is more")
+// }
 
 // var age = +prompt ("Enter your age")
 // var gender = prompt ("Enter your gender")
@@ -40,10 +40,22 @@
 
 // 
 
-var a = 10;
-if (a !== 15){
-    document.write("Correct")
-}
-else{
-    document.write("Incorrect")
-    }
+// var a = 10;
+// if (a !== 15){
+    // document.write("Correct")
+// }
+// else{
+    // document.write("Incorrect")
+    // }
+
+
+   var age = +prompt ("Enter your age")
+   if (age === 16){
+    document.write("Your age is equal")
+   }
+   else if (age < 16){
+    document.write("Your age is less")
+   }
+   else if (age > 16){
+    document.write("Your age is more")
+   }
