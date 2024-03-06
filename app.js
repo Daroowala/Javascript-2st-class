@@ -49,13 +49,30 @@
     // }
 
 
-   var age = +prompt ("Enter your age")
-   if (age === 16){
-    document.write("Your age is equal")
-   }
-   else if (age < 16){
-    document.write("Your age is less")
-   }
-   else if (age > 16){
-    document.write("Your age is more")
-   }
+  //  var age = +prompt ("Enter your age")
+  //  if (age === 16){
+  //   document.write("Your age is equal")
+  //  }
+  //  else if (age < 16){
+  //   document.write("Your age is less")
+  //  }
+  //  else if (age > 16){
+  //   document.write("Your age is more")
+  //  }
+
+
+  var result = +prompt ("Enter Your Percentage")
+  if (result >= 90){
+    document.write("Your Grade is A+")
+  }
+  if (result < 90 && result >= 80){
+    document.write("Your Grade is B+")
+  }
+  if (result < 80 && result >= 50){
+    document.write("Your Grade is C")
+  }
+  else {
+    document.write("Sorry You Are Fail")
+  }
+
+  
