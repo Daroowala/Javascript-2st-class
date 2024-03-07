@@ -32,7 +32,16 @@
 // var age = +prompt ("Enter your age")
 // var gender = prompt ("Enter your gender")
 // if (age > 18 && gender == "male"){
-//     alert("You are allowed")
+//     alert("You are allowed to ride")
+// }
+// else {
+//     alert("You are not allowed")
+// }
+
+// var age = +prompt ("Enter your age")
+// var gender = prompt ("Enter your gender")
+// if (age > 18 || gender == "male"){
+//     alert("You are allowed to ride")
 // }
 // else {
 //     alert("You are not allowed")
@@ -61,18 +70,31 @@
   //  }
 
 
-  var result = +prompt ("Enter Your Percentage")
+  // var result = +prompt ("Enter Your Percentage")
+  // if (result >= 90){
+  //   document.write("Your Grade is A+")
+  // }
+  // if (result < 90 && result >= 80){
+  //   document.write("Your Grade is B+")
+  // }
+  // if (result < 80 && result >= 50){
+  //   document.write("Your Grade is C")
+  // }
+  // else if (result < 50){
+  //   document.write("Sorry You Are Fail")
+  // }
+
+    var result = +prompt ("Enter Your Percentage")
   if (result >= 90){
     document.write("Your Grade is A+")
   }
-  if (result < 90 && result >= 80){
+  else if (result < 90 && result >= 80){
     document.write("Your Grade is B+")
   }
-  if (result < 80 && result >= 50){
+  else if (result < 80 && result >= 50){
     document.write("Your Grade is C")
   }
   else if (result < 50){
     document.write("Sorry You Are Fail")
   }
 
-  
