@@ -71,7 +71,7 @@
   if (result < 80 && result >= 50){
     document.write("Your Grade is C")
   }
-  else {
+  else if (result < 50){
     document.write("Sorry You Are Fail")
   }
 
